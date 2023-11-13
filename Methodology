@@ -1,0 +1,35 @@
+# Methodology
+
+Data Loading and Cleaning:
+
+Imported essential libraries: pandas, numpy, and MLxtend.
+Loaded a retail dataset from an Excel file.
+Conducted basic exploratory data analysis.
+Cleaned data by handling missing values and removing canceled invoices.
+
+Country-Specific Analysis (France):
+
+Filtered data for transactions in France.
+Created a basket structure with invoices as rows and product descriptions as columns.
+Converted basket values to binary (0 or 1) to indicate product purchase.
+Apriori Algorithm (France):
+
+Applied the Apriori algorithm to find frequent itemsets based on a specified minimum support.
+
+Association Rules (France):
+
+Generated association rules using metrics like lift and confidence.
+Filtered rules based on criteria like lift >= 6 and confidence >= 0.8.
+Country-Specific Analysis (Germany):
+
+Replicated the analysis steps for transactions in Germany.
+Apriori Algorithm (Germany):
+
+Applied the Apriori algorithm to find frequent itemsets for the German dataset.
+Association Rules (Germany):
+
+Generated association rules for the German dataset.
+Applied criteria to filter rules and identify strong associations.
+Summary:
+
+Presented the final output, highlighting frequent itemsets and association rules for both France and Germany.
